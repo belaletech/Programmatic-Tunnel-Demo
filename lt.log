@@ -1,0 +1,9 @@
+{"level":"info","time":"2026-10-13T15:26:44.884+0530","caller":"cmd/lt.go:208","msg":"LambdaTest Tunnel version: 3.2.36"}
+{"level":"info","time":"2026-10-13T15:26:46.440+0530","caller":"custom/setup.go:947","msg":"Tunnel binary started on port :9090"}
+{"level":"info","time":"2026-10-13T15:26:47.798+0530","caller":"networkscanner/setup.go:216","msg":"TCP Mode is supported"}
+{"level":"info","time":"2026-10-13T15:26:47.798+0530","caller":"core/lifecycle.go:283","msg":"Launching tunnel"}
+{"level":"info","time":"2026-10-13T15:26:50.292+0530","caller":"core/lifecycle.go:302","msg":"Tcp data connections rotate after 3000s"}
+{"level":"info","time":"2026-10-13T15:26:50.292+0530","caller":"core/lifecycle.go:307","msg":"Server enabled capabilities: tcp-multi-stream, tcp-stream-rotate"}
+{"level":"info","time":"2026-10-13T15:26:50.293+0530","caller":"tcpbus/tcp.go:324","msg":"Using 5 tcp data connection(s)"}
+{"level":"info","time":"2026-10-13T15:26:53.158+0530","caller":"core/lifecycle.go:426","msg":"You can start testing now"}
+{"level":"info","time":"2026-10-13T15:26:53.159+0530","caller":"core/lifecycle.go:427","msg":"Tunnel ID: 18102701"}

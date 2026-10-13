@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LT Tunnel Demo Suite">
+    <test name="Android Real Device via Tunnel">
+        <parameter name="device" value="Pixel 10"/>
+        <parameter name="version" value="16"/>
+        <parameter name="platform" value="android"/>
+        <classes>
+            <class name="com.lambdatest.demo.TunnelAppTest"/>
+        </classes>
+    </test>
+</suite>

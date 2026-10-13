@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="72.923" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/test-classes:/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/classes:/Users/belalahmad/.m2/repository/io/appium/java-client/9.3.0/java-client-9.3.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.0/selenium-api-4.23.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.0/selenium-remote-driver-4.23.0.jar:/Users/belalahmad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/belalahmad/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/belalahmad/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/belalahmad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/belalahmad/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/belalahmad/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/belalahmad/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/Users/belalahmad/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.0/selenium-http-4.23.0.jar:/Users/belalahmad/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.0/selenium-json-4.23.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.0/selenium-manager-4.23.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.0/selenium-os-4.23.0.jar:/Users/belalahmad/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.0/selenium-support-4.23.0.jar:/Users/belalahmad/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/belalahmad/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/belalahmad/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/belalahmad/.m2/repository/com/github/lambdatest/lambdatest-tunnel-binary/4.0.2/lambdatest-tunnel-binary-4.0.2.jar:/Users/belalahmad/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar:/Users/belalahmad/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/belalahmad/.m2/repository/net/lingala/zip4j/zip4j/2.11.5/zip4j-2.11.5.jar:/Users/belalahmad/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/belalahmad/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/belalahmad/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/belalahmad/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar:/Users/belalahmad/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/belalahmad/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/belalahmad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/belalahmad/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar:/Users/belalahmad/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.12.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/surefire/surefirebooter-20261013152644130_3.jar /Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/surefire 2026-10-13T15-26-44_060-jvmRun1 surefire-20261013152644130_1tmp surefire_0-20261013152644130_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/test-classes:/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/classes:/Users/belalahmad/.m2/repository/io/appium/java-client/9.3.0/java-client-9.3.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.0/selenium-api-4.23.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.0/selenium-remote-driver-4.23.0.jar:/Users/belalahmad/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/belalahmad/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/belalahmad/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/belalahmad/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/belalahmad/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/belalahmad/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/belalahmad/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/Users/belalahmad/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/Users/belalahmad/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.0/selenium-http-4.23.0.jar:/Users/belalahmad/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.0/selenium-json-4.23.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.0/selenium-manager-4.23.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.0/selenium-os-4.23.0.jar:/Users/belalahmad/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/belalahmad/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.0/selenium-support-4.23.0.jar:/Users/belalahmad/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/belalahmad/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/belalahmad/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/belalahmad/.m2/repository/com/github/lambdatest/lambdatest-tunnel-binary/4.0.2/lambdatest-tunnel-binary-4.0.2.jar:/Users/belalahmad/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar:/Users/belalahmad/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/belalahmad/.m2/repository/net/lingala/zip4j/zip4j/2.11.5/zip4j-2.11.5.jar:/Users/belalahmad/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/belalahmad/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/belalahmad/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/belalahmad/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar:/Users/belalahmad/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/belalahmad/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/belalahmad/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/belalahmad/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar:/Users/belalahmad/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/belalahmad"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@21/21.0.12.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo/target/surefire/surefirebooter-20261013152644130_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.12.1"/>
+    <property name="user.name" value="belalahmad"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.6.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/belalahmad/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/bn/4wz85j193b36k2zh_rsvzfzm0000gr/T/"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="/Users/belalahmad/Desktop/Repo/lt-tunnel-appium-demo"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/belalahmad/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.12.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="sessionRunsThroughTunnel" classname="com.lambdatest.demo.TunnelAppTest" time="14.835">
+    <system-out><![CDATA[[Tunnel] Starting in 'binary' mode, name=demo-tunnel
+[LT] No configuration file found. Proceeding with defaults
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	File descriptor limit 61440
+[LT] &amp#27;[34mINFO&amp#27;[0m	LambdaTest Tunnel version: 3.2.36
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Starting pipeline.....
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	OS: darwin, Arch: arm64
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Fetching config
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Starting tunnel With flags: --user belalahmadlambdatest --key ***** --tunnelName demo-tunnel --verbose
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Remote config fetched
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Starting sink proxy
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Trying TCP on port 443
+[LT] &amp#27;[34mINFO&amp#27;[0m	Tunnel binary started on port :9090
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	TLS handshake completed successfully in TCP Mode
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Tunnel Server responded with 200 OK for TCP Connection
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	TCP connection was successful
+[LT] &amp#27;[34mINFO&amp#27;[0m	TCP Mode is supported
+[LT] &amp#27;[34mINFO&amp#27;[0m	Launching tunnel
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	otel disabled
+[LT] &amp#27;[34mINFO&amp#27;[0m	Tcp data connections rotate after 3000s
+[LT] &amp#27;[34mINFO&amp#27;[0m	Server enabled capabilities: tcp-multi-stream, tcp-stream-rotate
+[LT] &amp#27;[34mINFO&amp#27;[0m	Using 5 tcp data connection(s)
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Sending tunnel registered message to channels
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Starting 5 data tcp connections at https://ts-dc.lambdatest.com/tcptunnel/18102701
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 1 started
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 1 healthy (1/5 serving)
+[LT] &amp#27;[34mINFO&amp#27;[0m	You can start testing now
+[LT] &amp#27;[34mINFO&amp#27;[0m	Tunnel ID: 18102701
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Remote Listener Started on Port 17082
+[Tunnel] Started. Check Tunnels page on the dashboard for: demo-tunnel
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 2 started
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 2 healthy (2/5 serving)
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 3 started
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 3 healthy (3/5 serving)
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 4 started
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 4 healthy (4/5 serving)
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 5 started
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	Data bus 5 healthy (5/5 serving)
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://voilatile-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 1, "dataStream": "tcp-bus-1/10.255.0.16:56198"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 2, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://play-fe.googleapis.com:443	{"tunnelID": "18102701", "requestID": 3, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 5, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://infinitedata-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 4, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://connectivitycheck.gstatic.com:443	{"tunnelID": "18102701", "requestID": 6, "dataStream": "tcp-bus-1/10.255.0.16:56198"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://connectivitycheck.gstatic.com:443	{"tunnelID": "18102701", "requestID": 7, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 8, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://digitalassetlinks.googleapis.com:443	{"tunnelID": "18102701", "requestID": 9, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 10, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 11, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 12, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 13, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 14, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://android.googleapis.com:443	{"tunnelID": "18102701", "requestID": 15, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://play-fe.googleapis.com:443	{"tunnelID": "18102701", "requestID": 16, "dataStream": "tcp-bus-1/10.255.0.16:56198"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.gstatic.com:443	{"tunnelID": "18102701", "requestID": 17, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 18, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 19, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 20, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 21, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 22, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 23, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://digitalassetlinks.googleapis.com:443	{"tunnelID": "18102701", "requestID": 24, "dataStream": "tcp-bus-1/10.255.0.16:56198"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 25, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 26, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 29, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 28, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://play.googleapis.com:443	{"tunnelID": "18102701", "requestID": 27, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 30, "dataStream": "tcp-bus-1/10.255.0.16:56198"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 31, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 32, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 33, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://android.googleapis.com:443	{"tunnelID": "18102701", "requestID": 34, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 35, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://geller-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 36, "dataStream": "tcp-bus-1/10.255.0.16:56198"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://play.googleapis.com:443	{"tunnelID": "18102701", "requestID": 37, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://play.googleapis.com:443	{"tunnelID": "18102701", "requestID": 38, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://voilatile-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 39, "dataStream": "tcp-bus-2/10.255.0.16:56211"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://rr3---sn-cvh76nsl.gvt1.com:443	{"tunnelID": "18102701", "requestID": 40, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://rr2---sn-cvh7knzk.gvt1.com:443	{"tunnelID": "18102701", "requestID": 41, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://rr2---sn-ajcvh5-5a.gvt1.com:443	{"tunnelID": "18102701", "requestID": 42, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://android.googleapis.com:443	{"tunnelID": "18102701", "requestID": 43, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.gstatic.com:443	{"tunnelID": "18102701", "requestID": 44, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://www.googleapis.com:443	{"tunnelID": "18102701", "requestID": 45, "dataStream": "tcp-bus-3/10.255.0.16:56228"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://infinitedata-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 46, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://rr4---sn-cvh7knzr.gvt1.com:443	{"tunnelID": "18102701", "requestID": 47, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+[Test] Session started: 96ff2e56-84f6-4ee9-9316-0aaff87b33b6
+[Test] Display density: 420
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://rr3---sn-2ocvhc-5w.gvt1.com:443	{"tunnelID": "18102701", "requestID": 48, "dataStream": "tcp-bus-4/10.255.0.16:56244"}
+[Test] Current package: com.lambdatest.proverbial
+[LT] &amp#27;[35mDEBUG&amp#27;[0m	handling connect request for URL https://auditrecording-pa.googleapis.com:443	{"tunnelID": "18102701", "requestID": 49, "dataStream": "tcp-bus-5/10.255.0.16:56260"}
+]]></system-out>
+  </testcase>
+</testsuite>

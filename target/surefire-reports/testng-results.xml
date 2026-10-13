@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-13T15:26:53 IST" name="LT Tunnel Demo Suite" finished-at="2026-10-13T15:27:57 IST" duration-ms="63946">
+    <groups>
+    </groups>
+    <test started-at="2026-10-13T15:26:53 IST" name="Android Real Device via Tunnel" finished-at="2026-10-13T15:27:57 IST" duration-ms="63946">
+      <class name="com.lambdatest.demo.TunnelAppTest">
+        <test-method is-config="true" signature="startTunnel()[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20]" started-at="2026-10-13T15:26:44 IST" name="startTunnel" finished-at="2026-10-13T15:26:53 IST" duration-ms="8657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTunnel -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20]" started-at="2026-10-13T15:26:53 IST" name="setUp" finished-at="2026-10-13T15:27:38 IST" duration-ms="45422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pixel 10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sessionRunsThroughTunnel()[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20]" started-at="2026-10-13T15:27:38 IST" name="sessionRunsThroughTunnel" finished-at="2026-10-13T15:27:53 IST" duration-ms="14827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionRunsThroughTunnel -->
+        <test-method is-config="true" signature="markStatus(org.testng.ITestResult)[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20]" started-at="2026-10-13T15:27:53 IST" name="markStatus" finished-at="2026-10-13T15:27:56 IST" duration-ms="2599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sessionRunsThroughTunnel status=SUCCESS method=TunnelAppTest.sessionRunsThroughTunnel()[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20]" started-at="2026-10-13T15:27:56 IST" name="tearDown" finished-at="2026-10-13T15:27:57 IST" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopTunnel()[pri:0, instance:com.lambdatest.demo.TunnelAppTest@45d84a20]" started-at="2026-10-13T15:27:57 IST" name="stopTunnel" finished-at="2026-10-13T15:27:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTunnel -->
+      </class> <!-- com.lambdatest.demo.TunnelAppTest -->
+    </test> <!-- Android Real Device via Tunnel -->
+  </suite> <!-- LT Tunnel Demo Suite -->
+</testng-results>
